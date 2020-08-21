@@ -15,7 +15,7 @@ for (let i = 0; i < this.add.length; i++) {
       elem.style.width = width + '%'; 
       
 })
-
+}
 for (let i = 0; i < this.de.length; i++) {
     this.de[i].addEventListener('click', () => {
         if (this.no[i].value > 0  ) {
