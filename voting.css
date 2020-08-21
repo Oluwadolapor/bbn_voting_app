@@ -11,14 +11,27 @@ body{
     height: 600px;
      
  }
- .votingpad{
+ .sg2{
+    margin:auto ;
+    height: 600px; 
+ }
+ .votingpad1{
     min-height: 570px;
     background-color: white;
     border: 0px solid yellow;
-    margin: 44px auto 0 auto;
+    margin: 44px auto 100px auto;
     border-radius: 10px;
     padding-top: 15px;
 }
+.votingpad2{
+    min-height: 570px;
+    background-color: white;
+    border: 0px solid yellow;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+    
 .header{
 min-height: 100px;
 background-color: #232B3D;
