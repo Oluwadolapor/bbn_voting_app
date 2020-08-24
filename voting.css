@@ -6,32 +6,35 @@ body{
     background-attachment: center ;
 }
 
- .sg1{
-    margin:auto ;
+.sg1{
+    margin: 50px auto 0 auto;
     height: 600px;
-     
- }
- .sg2{
-    margin:auto ;
-    height: 600px; 
- }
- .votingpad1{
+    display: block;
+}
+.sg2{
+    display:none;
+    
+    height: 600px;   
+}
+.sg {
+    margin: 50px auto 0 auto;
+}
+.votingpad1{
     min-height: 570px;
     background-color: white;
     border: 0px solid yellow;
-    margin: 44px auto 100px auto;
+    padding-bottom: 20px;
     border-radius: 10px;
-    padding-top: 15px;
+    padding-top: 15px; 
 }
 .votingpad2{
     min-height: 570px;
     background-color: white;
     border: 0px solid yellow;
-    margin: 100px auto 0 auto;
     border-radius: 10px;
     padding-top: 15px;
+    padding-bottom: 20px;
 }
-    
 .header{
 min-height: 100px;
 background-color: #232B3D;
@@ -45,13 +48,12 @@ color: white;
 margin:auto;
 }
 .votingbox > div {
-min-width: 45%;
+min-width: 47%;
 margin:auto 5px 10px 5px;
 min-height: 100px;
 border:  1px solid rgba(0, 0, 0, 0.2);
 box-sizing: border-box;
 border-radius: 7px;
-
 }
 .button-group > .btn {
 background-color: #f2f2f2;
