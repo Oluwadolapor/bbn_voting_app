@@ -168,8 +168,8 @@ function showLeaderBoard() {
             <div class="media">
               <img src="${user.image}" alt="${user.name}" class="mt-3 mr-3 rounded-circle" style="width:60px;">
               <div class="media-body">
-                <h4 class="pt-2">${user.name}</h4>
-                <h2 class ="pt-2 rank">${index + 1}</h2>
+                <h4 class="mt-2">${user.name}</h4>
+                <h2 class ="rank">${index + 1}</h2>
               </div>
             </div>
           </div>
