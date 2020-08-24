@@ -160,7 +160,7 @@ function showLeaderBoard() {
     // sort in descending order
     const usersTemp = users.sort((userA, userB) => userB.votes - userA.votes)
     
-    document.getElementById("eviction").innerHTML = usersTemp[0].name + " was EVICTED."
+    document.getElementById("eviction").innerHTML = usersTemp[5].name + " was EVICTED."
     usersTemp.forEach((user, index) => {
       segment2.innerHTML += `
       
